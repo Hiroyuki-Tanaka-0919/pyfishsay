@@ -1,11 +1,11 @@
 # pyfishsay : A joke app where fish talk
 # Ver       : 0.0.1
 # Auther    : Hiroyuki Tanaka
+
 import sys
 import random
 args = sys.argv
-rand = ['',
-        '... < ギョギョギョ！ >',
+rand = ['','... < ギョギョギョ！ >',
         '','... < ヒマだね～ >',
         '']
 msg1 = ''
@@ -19,4 +19,3 @@ for c in args[1]:
 print()
 print('      ><(((°>', msg2 )
 print(f'   ><(((°>   ><(((°> ... < { msg1 } >')
-
