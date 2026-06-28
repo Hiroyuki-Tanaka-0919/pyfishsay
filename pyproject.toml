@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyfishsay"
+version = "0.0.1"
+description = "A joke app where fish talk"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "Apache-2.0"
+
+authors = [
+  { name = "Hiroyuki Tanaka", email = "h.tanaka.tisdx.2024@gmail.com" }
+]
+
+keywords = [
+  "fish",
+  "talk",
+  "japanese",
+  "joke"
+]
+
+[project.optional-dependencies]
+dev = [
+  "build",
+  "twine"
+]
+
+[project.scripts]
+pyfishsay = "pyfishsay.pyfishsay:main"
+
+[project.urls]
+Homepage = "https://github.com/Hiroyuki-Tanaka-0919/pyfishsay"
+Repository = "https://github.com/Hiroyuki-Tanaka-0919/pyfishsay"
