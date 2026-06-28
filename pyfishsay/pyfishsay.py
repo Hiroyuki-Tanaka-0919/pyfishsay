@@ -1,5 +1,5 @@
 # pyfishsay : A joke app where fish talk
-# Ver       : 0.0.1
+# Ver       : 0.0.2
 # Auther    : Hiroyuki Tanaka
 
 import sys
@@ -12,6 +12,10 @@ def main():
             '']
     msg1 = ''
     msg2 = random.choice(rand)
+
+    if len(args) < 2:
+        print("Usage: pyfishsay <message>")
+        return
 
     for c in args[1]:
         if   c == 'ご': msg1 += 'ぎょ'
