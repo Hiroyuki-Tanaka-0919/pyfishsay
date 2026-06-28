@@ -1,14 +1,19 @@
 # pyfishsay
 A joke app where fish talk
 
+## Install
+```
+$ pip install pyfishsay
+```
+
 ## Run
 ```
-$ python3 pyfishsay.py <message>
+$ pyfishsay <message>
 ```
 
 ## Example
 ```
-$ python3 pyfishsay.py "I am a fish"
+$ pyfishsay "I am a fish"
 
       ><(((°>
    ><(((°>   ><(((°> ... < I am a fish >
