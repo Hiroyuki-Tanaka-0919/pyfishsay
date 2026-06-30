@@ -1,4 +1,3 @@
-.pypirc
 dist/
 pyfishsay.egg-info/
 pyfishsay/__pycache__/
