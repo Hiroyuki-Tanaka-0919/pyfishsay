@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyfishsay"
-version = "0.0.3"
+version = "0.0.4"
 description = "A joke app where fish talk"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -31,5 +31,5 @@ dev = [
 pyfishsay = "pyfishsay.pyfishsay:main"
 
 [project.urls]
-Homepage = "https://github.com/Hiroyuki-Tanaka-0919/pyfishsay"
+Homepage = "http://ht0919.s323.xrea.com/oss/"
 Repository = "https://github.com/Hiroyuki-Tanaka-0919/pyfishsay"
